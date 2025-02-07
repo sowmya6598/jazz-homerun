@@ -11,5 +11,5 @@ data = statcast_batter('2020-01-01', '2024-10-30', 665862)
 home_runs = data[data['events'] == 'home_run']
 
 home_runs[['game_year', 'game_date', 'game_type', 'home_team', 'away_team', 
-           'pitcher', 'pitch_type', 'launch_speed', 'launch_angle', 
+           'pitcher', 'pitch_type', 'pitch_name', 'launch_speed', 'launch_angle', 
            'hit_distance_sc', 'hc_x', 'hc_y']].to_csv('jazz_home_runs.csv', index=False)

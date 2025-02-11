@@ -1,5 +1,4 @@
-from pybaseball import  playerid_lookup
-from pybaseball import  statcast_batter
+from pybaseball import  playerid_lookup, statcast_batter, playerid_reverse_lookup
 
 player_id = playerid_lookup('chisholm', 'jazz')
 
@@ -8,8 +7,21 @@ player_id = playerid_lookup('chisholm', 'jazz')
 
 data = statcast_batter('2020-01-01', '2024-10-30', 665862)
 
-home_runs = data[data['events'] == 'home_run']
+home_runs = data[data['events'] == 'home_run'].copy()
+
+def get_pitcher_name(pitcher_id):
+    try:
+        lookup = playerid_reverse_lookup([pitcher_id], key_type='mlbam')
+        if not lookup.empty:
+            first_name = lookup.iloc[0]['name_first']
+            last_name = lookup.iloc[0]['name_last']
+            return f"{first_name} {last_name}"
+        return None
+    except Exception:
+        return None
+
+home_runs.loc[:, 'pitcher_name'] = home_runs['pitcher'].apply(get_pitcher_name)
 
 home_runs[['game_year', 'game_date', 'game_type', 'home_team', 'away_team', 
-           'pitcher', 'pitch_type', 'pitch_name', 'launch_speed', 'launch_angle', 
-           'hit_distance_sc', 'hc_x', 'hc_y']].to_csv('jazz_home_runs.csv', index=False)
+           'pitcher', 'pitcher_name', 'pitch_type', 'pitch_name', 'launch_speed', 'launch_angle', 
+           'hit_distance_sc', 'hc_x', 'hc_y']].to_csv('jazz_home_runs.csv', index=False, encoding='utf-8-sig')

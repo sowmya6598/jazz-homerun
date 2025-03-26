@@ -1,4 +1,7 @@
 ﻿game_year,game_date,game_type,home_team,away_team,pitcher,pitcher_name,pitch_type,pitch_name,launch_speed,launch_angle,hit_distance_sc,hc_x,hc_y
+2025,2025-03-20,S,BAL,NYY,608372,,,,,,,213.31,59.96
+2025,2025-03-19,S,PHI,NYY,592836,taijuan walker,FF,4-Seam Fastball,105.6,39.0,387.0,187.95,55.27
+2025,2025-03-09,S,STL,NYY,669467,andre pallante,FF,4-Seam Fastball,110.1,26.0,400.0,244.46,60.88
 2024,2024-10-30,W,NYY,LAD,656427,jack flaherty,FF,4-Seam Fastball,103.8,37.0,397.0,207.47,62.49
 2024,2024-10-07,D,NYY,KC,668674,lucas erceg,FF,4-Seam Fastball,106.8,39.0,375.0,211.15,72.85
 2024,2024-09-28,R,NYY,PIT,681347,mike burrows,CU,Curveball,104.2,34.0,406.0,224.58,66.39
@@ -66,7 +69,7 @@
 2022,2022-03-31,S,MIA,STL,572403,drew verhagen,SI,Sinker,107.2,35.0,,200.37,52.7
 2022,2022-03-18,S,WSH,MIA,605218,carl edwards,,,,,,124.72,28.47
 2021,2021-10-02,R,MIA,PHI,668968,hans crouse,CH,Changeup,107.8,22.0,393.0,222.38,71.79
-2021,2021-09-20,R,MIA,WSH,607200,erick fedde,CU,Curveball,107.0,32.0,427.0,151.36,28.03
+2021,2021-09-20,R,MIA,WSH,607200,erick fedde,ST,Sweeper,107.0,32.0,427.0,151.36,28.03
 2021,2021-09-20,R,MIA,WSH,607200,erick fedde,FC,Cutter,110.4,37.0,415.0,226.92,63.75
 2021,2021-09-09,R,MIA,NYM,544727,jeurys familia,SI,Sinker,110.3,40.0,402.0,220.07,65.42
 2021,2021-08-20,R,CIN,MIA,608371,lucas sims,FF,4-Seam Fastball,112.1,24.0,405.0,214.6,63.34

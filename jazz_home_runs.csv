@@ -1,4 +1,6 @@
 ﻿game_year,game_date,game_type,home_team,away_team,pitcher,pitcher_name,pitch_type,pitch_name,launch_speed,launch_angle,hit_distance_sc,hc_x,hc_y
+2025,2025-03-30,R,NYY,MIL,650644,aaron civale,FC,Cutter,109.1,22.0,346.0,223.7,98.19
+2025,2025-03-30,R,NYY,MIL,606303,joel payamps,SL,Slider,99.6,27.0,342.0,225.28,101.53
 2025,2025-03-29,R,NYY,MIL,671162,connor thomas,FF,4-Seam Fastball,109.5,25.0,442.0,180.23,28.21
 2025,2025-03-20,S,BAL,NYY,608372,,,,,,,213.31,59.96
 2025,2025-03-19,S,PHI,NYY,592836,taijuan walker,FF,4-Seam Fastball,105.6,39.0,387.0,187.95,55.27

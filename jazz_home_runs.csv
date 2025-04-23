@@ -1,8 +1,12 @@
 ﻿game_year,game_date,game_type,home_team,away_team,pitcher,pitcher_name,pitch_type,pitch_name,launch_speed,launch_angle,hit_distance_sc,hc_x,hc_y
+2025,2025-04-21,R,CLE,NYY,623149,paul sewald,FF,4-Seam Fastball,108.1,26.0,383.0,230.94,83.87
+2025,2025-04-14,R,NYY,KC,607625,seth lugo,CH,Changeup,105.4,33.0,411.0,154.38,35.02
+2025,2025-04-13,R,NYY,SF,643511,tyler rogers,SI,Sinker,95.7,35.0,361.0,193.68,69.73
+2025,2025-04-03,R,NYY,AZ,518876,merrill kelly,FF,4-Seam Fastball,102.5,29.0,387.0,209.87,66.21
 2025,2025-03-30,R,NYY,MIL,650644,aaron civale,FC,Cutter,109.1,22.0,346.0,223.7,98.19
 2025,2025-03-30,R,NYY,MIL,606303,joel payamps,SL,Slider,99.6,27.0,342.0,225.28,101.53
 2025,2025-03-29,R,NYY,MIL,671162,connor thomas,FF,4-Seam Fastball,109.5,25.0,442.0,180.23,28.21
-2025,2025-03-20,S,BAL,NYY,608372,,,,,,,213.31,59.96
+2025,2025-03-20,S,BAL,NYY,608372,tomoyuki sugano,,,,,,213.31,59.96
 2025,2025-03-19,S,PHI,NYY,592836,taijuan walker,FF,4-Seam Fastball,105.6,39.0,387.0,187.95,55.27
 2025,2025-03-09,S,STL,NYY,669467,andre pallante,FF,4-Seam Fastball,110.1,26.0,400.0,244.46,60.88
 2024,2024-10-30,W,NYY,LAD,656427,jack flaherty,FF,4-Seam Fastball,103.8,37.0,397.0,207.47,62.49
@@ -10,7 +14,7 @@
 2024,2024-09-28,R,NYY,PIT,681347,mike burrows,CU,Curveball,104.2,34.0,406.0,224.58,66.39
 2024,2024-09-19,R,SEA,NYY,669302,logan gilbert,FC,Cutter,105.7,25.0,389.0,191.26,55.67
 2024,2024-08-28,R,WSH,NYY,669022,mackenzie gore,FF,4-Seam Fastball,104.6,36.0,411.0,130.77,16.39
-2024,2024-08-26,R,WSH,NYY,686747,joe la sorsa,SL,Slider,106.7,24.0,391.0,212.31,66.07
+2024,2024-08-26,R,WSH,NYY,686747,joe la sorsa,ST,Sweeper,106.7,24.0,391.0,212.31,66.07
 2024,2024-08-10,R,NYY,TEX,681982,grant anderson,FF,4-Seam Fastball,103.8,33.0,416.0,159.45,34.1
 2024,2024-08-10,R,NYY,TEX,642520,gerson garabito,CH,Changeup,100.3,32.0,390.0,172.27,48.31
 2024,2024-08-08,R,NYY,LAA,542881,tyler anderson,FF,4-Seam Fastball,103.2,31.0,411.0,190.86,53.24
@@ -38,7 +42,7 @@
 2023,2023-09-17,R,MIA,ATL,450203,charlie morton,FF,4-Seam Fastball,107.6,24.0,417.0,145.39,31.28
 2023,2023-09-16,R,MIA,ATL,543859,michael tonkin,FF,4-Seam Fastball,107.0,33.0,424.0,176.19,34.81
 2023,2023-09-06,R,MIA,LAD,458681,lance lynn,SI,Sinker,103.7,37.0,372.0,42.94,73.41
-2023,2023-09-05,R,MIA,LAD,642232,ryan yarbrough,CU,Curveball,109.4,37.0,436.0,222.33,49.97
+2023,2023-09-05,R,MIA,LAD,642232,ryan yarbrough,ST,Sweeper,109.4,37.0,436.0,222.33,49.97
 2023,2023-08-31,R,WSH,MIA,672851,joan adon,CU,Curveball,102.4,30.0,376.0,226.91,84.11
 2023,2023-08-29,R,MIA,TB,650644,aaron civale,CU,Curveball,104.2,29.0,412.0,187.31,43.86
 2023,2023-08-18,R,LAD,MIA,664062,tony gonsolin,FF,4-Seam Fastball,98.4,41.0,360.0,225.51,86.92
